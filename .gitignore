@@ -348,3 +348,8 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
+
+
+src/AWSCloudFrontLabs.SignedCookies.Api/Configuration/cf_private_key.pem
+src/AWSCloudFrontLabs.SignedCookies.Api/Configuration/cf_public_key.pem
+src/AWSCloudFrontLabs.SignedCookies.Api/appsettings.Development.json
