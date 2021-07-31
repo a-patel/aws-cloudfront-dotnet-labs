@@ -1,3 +1,4 @@
+#region Imports
 using AWSCloudFrontLabs.SignedCookies.Api.Configuration;
 using AWSCloudFrontLabs.SignedCookies.Api.Services;
 using Microsoft.AspNetCore.Builder;
@@ -6,6 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+#endregion
 
 namespace AWSCloudFrontLabs.SignedCookies.Api
 {

@@ -28,7 +28,6 @@ namespace AWSCloudFrontLabs.SignedCookies.Api.Services
 
         #endregion
 
-
         #region Methods
 
         public CookiesForCustomPolicy GetSignedCookies()

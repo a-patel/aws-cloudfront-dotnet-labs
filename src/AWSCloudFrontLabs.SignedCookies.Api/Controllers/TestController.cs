@@ -10,14 +10,24 @@ namespace AWSCloudFrontLabs.SignedCookies.Api.Controllers
     [Route("[controller]")]
     public class TestController : ControllerBase
     {
+        #region Members
+
         private readonly IAwsCloudFrontService _awsCloudFrontService;
         private readonly ILogger<TestController> _logger;
+
+        #endregion
+
+        #region Ctor
 
         public TestController(IAwsCloudFrontService awsCloudFrontService, ILogger<TestController> logger)
         {
             _awsCloudFrontService = awsCloudFrontService;
             _logger = logger;
         }
+
+        #endregion
+
+        #region Methods
 
         [HttpGet]
         public IActionResult Get()
@@ -26,5 +36,7 @@ namespace AWSCloudFrontLabs.SignedCookies.Api.Controllers
 
             return Ok(cookies);
         }
+
+        #endregion
     }
 }
